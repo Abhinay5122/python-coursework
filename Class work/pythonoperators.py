@@ -82,3 +82,29 @@ print("six is there in the s:",6 in s) # six is there in the s: True
 
 # Identity Operators
 print("Identity Operators")
+print()
+a = [1,2,3,4]
+b = [1,2,3,4]
+c = a
+print(a is b) #False
+print()
+print(c is a) # True
+print()
+print(c is not b) # True
+
+# bitwise operator
+print("bitwise operator")
+x = 5
+y = 10
+print("x and y:",x&y) #x and y: 0
+print()
+print("x or y:",x|y) # x or y: 15
+print()
+print("x nor y:", x ^ y) # x nor y: 15
+print()
+print("not x:", ~x ) # not x: -6
+print()
+print("x leftshift:", x<<1) # x leftshift: 10
+print()
+print("y rightshift:",y>>1) # y rightshift: 5
+
